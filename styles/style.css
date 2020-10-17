@@ -6,3 +6,51 @@ Green: #00B172
 White: #FFF
 
 */
+nav {
+    background-color: #fff;
+    color: 1A1A1A;
+	font-style: none;
+	font-size: 10px;
+}
+nav>ul{ 
+	list-style: none
+	;
+}
+.green-logo {
+	height: 40px ;
+	width: 100px;
+}
+div {
+    background-image: "landing.jpg";
+    background-color: #FFF;
+}
+.landing{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.underline{
+	text-decoration: underline;
+	text-decoration-color:#00B172 ;
+}
+.columns{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+head {
+    background-color: #FFF;
+}
+#color-box {
+background-color: #00B172 ;
+flex-direction: column;
+color: #ffffff; 
+}
+h1 {
+    
+}
